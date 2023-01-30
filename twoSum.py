@@ -10,6 +10,7 @@ def twoSum(nums,target):
                 array.append(j)
             j+=1
         i+=1
-    array.sort()
+
+    print(array)
     return array
-twoSum([2,7,11,15],9)
+twoSum([2,7,2,7,11,15],9)
